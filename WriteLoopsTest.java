@@ -107,14 +107,14 @@ public class WriteLoopsTest
     public void TestCheckGameScore()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(true, writeLoo1.checkGameScore());
+        assertEquals(2, writeLoo1.checkGameScore());
     }
 
     @Test
     public void TestCheckGameScoreDoWhile()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(false, writeLoo1.checkGameScoreDoWhile());
+        assertEquals(2, writeLoo1.checkGameScoreDoWhile());
     }
 
     @Test
